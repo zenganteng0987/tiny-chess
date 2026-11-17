@@ -4,9 +4,9 @@
 
 # Tiny Chess
 
-A chess engine in a single `main.py` of 4,040 bytes (limit 4,096) for the
-make.fun `tiny-chess-01` bounty. The file is a minified Python program packed
-as an LZMA payload with a small unpacking stub; it runs as
+A chess engine in a single `main.py` of 3,785 bytes (limit 4,096) for the
+make.fun `tiny-chess-01` bounty. The readable source is packed
+with the kit's `makefun compress` into an LZMA payload; it runs as
 `python3 -P -s /bot/main.py` on Python 3.13, standard library only, and plays
 as a client of the competition environment.
 
